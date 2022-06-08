@@ -30,8 +30,12 @@ Available: https://www.nature.com/articles/sdata2018161, https://arxiv.org/abs/1
 
 #Related Work
 
-IRv2-SA
+a. IRv2-SA
 
 S. K. Datta, M. A. Shaikh, S. N. Srihari, and M. Gao. "Soft-Attention Improves Skin Cancer Classification Performance," Computer Science, vol 12929. Springer, Cham. doi: 10.1007/978-3-030-87444-5_2, 2021.
 
 https://github.com/skrantidatta/Attention-based-Skin-Cancer-Classification
+
+b. SLA-StyleGAN
+
+C. Zhao, R. Shuai, L. Ma, W. Liu, D. Hu and M. Wu, ``Dermoscopy Image Classification Based on StyleGAN and DenseNet201," in IEEE Access, vol. 9, pp. 8659-8679, 2021, doi: 10.1109/ACCESS.2021.3049600.

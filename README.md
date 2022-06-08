@@ -27,3 +27,11 @@ Noel Codella, Veronica Rotemberg, Philipp Tschandl, M. Emre Celebi, Stephen Dusz
 Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci. Data 5, 180161 doi:10.1038/sdata.2018.161 (2018). 
 
 Available: https://www.nature.com/articles/sdata2018161, https://arxiv.org/abs/1803.10417
+
+#Related Work
+
+IRv2-SA
+
+S. K. Datta, M. A. Shaikh, S. N. Srihari, and M. Gao. "Soft-Attention Improves Skin Cancer Classification Performance," Computer Science, vol 12929. Springer, Cham. doi: 10.1007/978-3-030-87444-5_2, 2021.
+
+https://github.com/skrantidatta/Attention-based-Skin-Cancer-Classification

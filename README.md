@@ -14,7 +14,9 @@ pass
 @article{lan2022fixcaps, title={FixCaps: An Improved Capsules Network for Diagnosis of Skin Cancer}, author={Lan, Zhangli and Cai, Songbai and He, Xu and Wen, Xinpeng}, journal={IEEE Access}, year={2022},doi={10.1109/ACCESS.2022.3181225}}
 
 #Datasets
+
 https://challenge.isic-archive.com/data/#2018
+
 HAM10000 dataset:
 
 Noel Codella, Veronica Rotemberg, Philipp Tschandl, M. Emre Celebi, Stephen Dusza, David Gutman, Brian Helba, Aadi Kalloo, Konstantinos Liopyris, Michael Marchetti, Harald Kittler, Allan Halpern: "Skin Lesion Analysis Toward Melanoma Detection 2018: A Challenge Hosted by the International Skin Imaging Collaboration (ISIC)", 2018; https://arxiv.org/abs/1902.03368

@@ -16,6 +16,8 @@ pass
 #Datasets
 
 https://challenge.isic-archive.com/data/#2018
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T
+
 
 HAM10000 dataset:
 

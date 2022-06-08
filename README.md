@@ -10,6 +10,7 @@ pass
 pass
 
 #Citation
+
 @article{lan2022fixcaps, title={FixCaps: An Improved Capsules Network for Diagnosis of Skin Cancer}, author={Lan, Zhangli and Cai, Songbai and He, Xu and Wen, Xinpeng}, journal={IEEE Access}, year={2022},doi={10.1109/ACCESS.2022.3181225}}
 
 #Datasets

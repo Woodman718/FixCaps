@@ -9,7 +9,7 @@ Note：Here's a trick. Changing "308" to "310" or "312" in the test data augment
 1. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
 pass
 
-![Alt](https://img-home.csdnimg.cn/images/20220524100510.png](https://github.com/Woodman718/FixCaps/blob/main/Images/LKC.png#pic_center)
+![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/LKC.png#pic_center)
 
 #Datasets
 

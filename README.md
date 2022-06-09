@@ -14,10 +14,8 @@ GoogLeNet	|83.94	|5.98	|1.58
 Inception V3	|86.82	|22.8	|5.73
 MobileNet V3	|89.97	|1.53	|0.12
 IRv2-SA	|93.47	|47.5	|25.46
--------------:|-------------:|-------------:|-------------:|
 FixCaps-DS	|96.13	|0.14	|0.08
 FixCaps	|96.49	|0.5	|6.74
--------------:|-------------:|-------------:|-------------:|
 
 3. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
 

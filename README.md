@@ -11,10 +11,6 @@ pass
 2. Evaluation metrics of FixCaps and IRV2-SA for each skin lesion type on the test set.
 pass
 
-#Citation
-
-@article{lan2022fixcaps, title={FixCaps: An Improved Capsules Network for Diagnosis of Skin Cancer}, author={Lan, Zhangli and Cai, Songbai and He, Xu and Wen, Xinpeng}, journal={IEEE Access}, year={2022},doi={10.1109/ACCESS.2022.3181225}}
-
 #Datasets
 
 https://challenge.isic-archive.com/data/#2018
@@ -41,3 +37,16 @@ https://github.com/skrantidatta/Attention-based-Skin-Cancer-Classification
 b. SLA-StyleGAN
 
 C. Zhao, R. Shuai, L. Ma, W. Liu, D. Hu and M. Wu, ``Dermoscopy Image Classification Based on StyleGAN and DenseNet201," in IEEE Access, vol. 9, pp. 8659-8679, 2021, doi: 10.1109/ACCESS.2021.3049600.
+
+
+#Citation
+
+@ARTICLE{9791221,
+  author={Lan, Zhangli and Cai, Songbai and He, Xu and Wen, Xinpeng},
+  journal={IEEE Access}, 
+  title={FixCaps: An Improved Capsules Network for Diagnosis of Skin Cancer}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/ACCESS.2022.3181225}}

@@ -22,6 +22,8 @@ FixCaps	|96.49	|0.5	|6.74
 
 ## Datasets
 
+![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/data.PNG#pic_center)
+
 Available:
 ```
 https://challenge.isic-archive.com/data/#2018

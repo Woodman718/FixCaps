@@ -9,7 +9,7 @@ Note：Here's a trick. Changing "308" to "310" or "312" in the test data augment
 1. Classification accuracy (%) on the HAM10000 test set.
 
 Method	|Accuracy [%]	|Params(M) 	|FLOPs(G)
-|:--------:|-------------:|-------------:|-------------:|
+|:--------:|:-------------:|:-------------:|:-------------:|
 GoogLeNet	|83.94	|5.98	|1.58
 Inception V3	|86.82	|22.8	|5.73
 MobileNet V3	|89.97	|1.53	|0.12

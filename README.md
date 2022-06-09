@@ -22,8 +22,6 @@ FixCaps	|96.49	|0.5	|6.74
 
 #Datasets
 
-This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/ .
-
 Available:
 ```
 https://challenge.isic-archive.com/data/#2018
@@ -39,9 +37,12 @@ Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large collecti
 Available: https://www.nature.com/articles/sdata2018161, https://arxiv.org/abs/1803.10417
 ```
 
+## License
 
+The dataset is released under a Creative Commons Attribution 4.0 License.
+For more information, see https://creativecommons.org/licenses/by/4.0/ .
 
-#Related Work
+###Related Work
 
 a. IRv2-SA
 

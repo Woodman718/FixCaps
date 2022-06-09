@@ -3,7 +3,7 @@ The early detection of skin cancer substantially improves the five-year survival
 
 https://doi.org/10.1109/ACCESS.2022.318122
 
-【Note：】Here's a trick. Changing "308" to "310" or "312" in the test data augment "transforms.  resize ((308,308))" boost up approximately 0.5% accuracy when testing. 
+Note：Here's a trick. Changing "308" to "310" or "312" in the test data augment "transforms.  resize ((308,308))" boost up approximately 0.5% accuracy when testing. 
 
 #Results
 1. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).

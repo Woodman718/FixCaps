@@ -8,8 +8,8 @@ Note：Here's a trick. Changing "308" to "310" or "312" in the test data augment
 #Results
 1. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
 pass
-2. Evaluation metrics of FixCaps and IRV2-SA for each skin lesion type on the test set.
-pass
+
+![Alt](https://img-home.csdnimg.cn/images/20220524100510.png)
 
 #Datasets
 

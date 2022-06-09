@@ -6,8 +6,20 @@ https://doi.org/10.1109/ACCESS.2022.318122
 Note：Here's a trick. Changing "308" to "310" or "312" in the test data augment "transforms.  resize ((308,308))" boost up approximately 0.5% accuracy when testing. 
 
 #Results
-1. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
-pass
+1. Classification accuracy (%) on the HAM10000 test set.
+
+Method	|Accuracy [%]	|Params(M) 	|FLOPs(G)
+|:--------:|-------------:|-------------:|-------------:|
+GoogLeNet	|83.94	|5.98	|1.58
+Inception V3	|86.82	|22.8	|5.73
+MobileNet V3	|89.97	|1.53	|0.12
+IRv2-SA	|93.47	|47.5	|25.46
+-------------:|-------------:|-------------:|-------------:|
+FixCaps-DS	|96.13	|0.14	|0.08
+FixCaps	|96.49	|0.5	|6.74
+-------------:|-------------:|-------------:|-------------:|
+
+3. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
 
 ![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/LKC.png#pic_center)
 

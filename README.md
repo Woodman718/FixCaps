@@ -34,9 +34,10 @@ HAM10000 dataset:
 Noel Codella, Veronica Rotemberg, Philipp Tschandl, M. Emre Celebi, Stephen Dusza, David Gutman, Brian Helba, Aadi Kalloo, Konstantinos Liopyris, Michael Marchetti, Harald Kittler, Allan Halpern: "Skin Lesion Analysis Toward Melanoma Detection 2018: A Challenge Hosted by the International Skin Imaging Collaboration (ISIC)", 2018; https://arxiv.org/abs/1902.03368
 
 Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci. Data 5, 180161 doi:10.1038/sdata.2018.161 (2018). 
+Available: https://www.nature.com/articles/sdata2018161, https://arxiv.org/abs/1803.10417
 ```
 
-Available: https://www.nature.com/articles/sdata2018161, https://arxiv.org/abs/1803.10417
+
 
 #Related Work
 
@@ -55,6 +56,7 @@ C. Zhao, R. Shuai, L. Ma, W. Liu, D. Hu and M. Wu, ``Dermoscopy Image Classifica
 ```
 
 #Citation
+
 If you use FixCaps for your research or aplication, please consider citation:
 
 ```

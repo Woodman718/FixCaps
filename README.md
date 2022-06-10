@@ -60,10 +60,10 @@ FixCaps	|96.49	|0.5	|6.74
 ![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/data.PNG#pic_center)
 
 ```
-Example of Skin lesions in HAM10000 dataset. Among them, BKL, DF, NV, and VASC are benign tumors, whereas AKIEC, BCC, and MEL are malignant tumors.
+Example of Skin lesions in HAM10000 dataset.
+Among them, BKL, DF, NV, and VASC are benign tumors, whereas AKIEC, BCC, and MEL are malignant tumors.
 
 Available:
-
 https://challenge.isic-archive.com/data/#2018
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T
 ```

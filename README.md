@@ -23,7 +23,7 @@ FixCaps	|96.49	|0.5	|6.74
 3 Evaluation metrics of the FixCaps.
 
 <table> 
-<tr><th>BatchSize = 128</th><th>BatchSize = 168</th></tr> 
+<tr><th>BatchSize = 128</th><th>BatchSize = 168(paper)</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
@@ -81,6 +81,8 @@ FixCaps	|96.49	|0.5	|6.74
 | Total: |           |        |       |  0.9734  |
  
 </td></tr> </table>
+
+![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png#pic_center)
 
 ## Datasets
 

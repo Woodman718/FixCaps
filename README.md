@@ -23,7 +23,7 @@ FixCaps	|96.49	|0.5	|6.74
 3 Evaluation metrics of the FixCaps.
 
 <table> 
-<tr><th>BatchSize = 128</th><th>BatchSize = 168, and use the trick</th></tr> 
+<tr><th>BatchSize = 128</th><th>BatchSize = 168</th></tr> 
 <tr><td> 
 
 

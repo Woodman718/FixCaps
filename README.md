@@ -22,8 +22,10 @@ FixCaps-DS	|96.13	|0.14	|0.08
 FixCaps	|96.49	|0.5	|6.74
 
 ```
+#Calculate the Params (M) FLOPs (G)
 pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
 pip install onnx
+
 Failed to install the "onnx", official link follows:
 https://github.com/onnx/onnx
 ```

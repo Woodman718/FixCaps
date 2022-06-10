@@ -23,7 +23,7 @@ FixCaps	|96.49	|0.5	|6.74
 3 Evaluation metrics of the FixCaps.
 
 <table> 
-<tr><th>LayerNorm</th><th>Norm&trick</th></tr> 
+<tr><th>LayerNorm</th><th>BatchNorm</th></tr> 
 <tr><td> 
 
 

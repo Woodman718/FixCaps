@@ -31,7 +31,7 @@ class  ImageShow(object):
     def test(self,opt='Acc',write=True,custom_path=None,img_title=None,suf=None):
         if opt == 'Acc':
             img_portray(opt=opt,write=write,dates=self.testacl,
-                        location='upper left',
+                        location='best',
                         label='Test_Acc',col='red',
                         img_title=img_title,suf=suf)
         elif opt == 'Loss':
@@ -52,7 +52,7 @@ class  ImageShow(object):
         elif opt == 'Loss':
             img_portray(opt=opt,write=write,dates=self.valll,
                         linestyle="-.",col='green',
-                        label='Val_Loss',location='upper right',
+                        label='Val_Loss',location='best',
                         img_title=img_title,suf=suf)
         if write:
             save_images(split='Val',img_title=img_title,suf=suf,opt=opt)
@@ -84,7 +84,7 @@ class  ImageShow(object):
 def img_portray(opt='Acc',write=True,
                 split=None,custom_path='./tmp',
                 dates=None,linestyle="dotted",
-                label=None,col=None,location='upper right',
+                label=None,col=None,location='best',
                 img_title=None,suf=None):
     plt.style.use("seaborn")
     plt.title(img_title)

@@ -87,13 +87,11 @@ FixCaps	|96.49	|0.5	|6.74
 <tr><th>BatchSize = 168 (Best_Results_610)</th><th>BatchSize = 168,and use the trick</th></tr> 
 <tr><td> 
 
-|:--------:|
-|![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)|
+![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)
 
 </td><td> 
 
-|:--------:|
-| ![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png) |
+![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png) 
 </td></tr> </table>
 
 

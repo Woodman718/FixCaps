@@ -21,6 +21,13 @@ IRv2-SA	|93.47	|47.5	|25.46
 FixCaps-DS	|96.13	|0.14	|0.08
 FixCaps	|96.49	|0.5	|6.74
 
+```
+pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
+pip install onnx
+Failed to install the "onnx", official link follows:
+https://github.com/onnx/onnx
+```
+
 2. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
 
 ![LKC](https://github.com/Woodman718/FixCaps/blob/main/Images/LKC.jpg#pic_center)

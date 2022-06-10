@@ -82,7 +82,8 @@ FixCaps	|96.49	|0.5	|6.74
  
 </td></tr> </table>
 
-![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png)
+<center class="half"> 
+<img src="https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png" width="300"/><img src="https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png" width="300"/> </center>
 
 
 ## Datasets

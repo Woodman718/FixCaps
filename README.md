@@ -18,12 +18,12 @@ FixCaps-DS	|96.13	|0.14	|0.08
 FixCaps	|96.49	|0.5	|6.74
 
 2. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
-![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/LKC.png#pic_center)
+![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/LKC.jpg#pic_center)
 
 3 Evaluation metrics of the FixCaps.
 
 <table> 
-<tr><th>BatchSize = 128</th><th>BatchSize = 168 or 188 , and use the trick</th></tr> 
+<tr><th>BatchSize = 128</th><th>BatchSize = 168, and use the trick</th></tr> 
 <tr><td> 
 
 
@@ -57,7 +57,7 @@ FixCaps	|96.49	|0.5	|6.74
 
 ## Datasets
 
-![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/data.PNG#pic_center)
+![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/data.jpg#pic_center)
 
 ```
 Example of Skin lesions in HAM10000 dataset.

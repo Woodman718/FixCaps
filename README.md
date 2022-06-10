@@ -83,7 +83,7 @@ FixCaps	|96.49	|0.5	|6.74
 </td></tr> </table>
 
 <center class="half">
-    <img src="https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png" width="200"/><img src="(https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png)" width="200"/> center>
+    <img src="https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png" width="400"/><img src="https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png" width="400"/> center>
 
 ## Datasets
 

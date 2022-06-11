@@ -67,7 +67,7 @@ https://github.com/onnx/onnx
 </td></tr> </table>
 
 <table> 
-<tr><th>BatchSize = 168 (Best_Results_610)</th><th>BatchSize = 168,and use the trick</th></tr> 
+<tr><th>BatchSize = 168 (Best_Result_610)</th><th>BatchSize = 168,and use the trick</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
@@ -98,7 +98,7 @@ https://github.com/onnx/onnx
 
 
 <table> 
-<tr><th>BatchSize = 168 (Best_Results_610)</th><th>BatchSize = 168,and use the trick</th></tr> 
+<tr><th>BatchSize = 168 (Best_Result_610)</th><th>BatchSize = 168,and use the trick</th></tr> 
 <tr><td> 
 
 ![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)

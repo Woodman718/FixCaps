@@ -111,6 +111,17 @@ https://github.com/onnx/onnx
 ```
 The test images of AKIEC, BCC, BKL and MEL were converted into PNG format as follows:
 (augmented dataset)https://aistudio.baidu.com/aistudio/datasetdetail/151696
+
+woodman:[data]$./echo_num.sh test
+==test==
+akiec:  23
+bcc:    26
+bkl:    66
+df:     6
+mel:    34
+nv:     663
+vasc:   10
+total:828
 ```
 
 ## Dataset

@@ -26,7 +26,7 @@ FixCaps	|96.49	|0.5	|6.74
 pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
 pip install onnx
 
-Failed to install the "onnx", official link follows:
+Failed to install the "onnx", official link as follows:
 https://github.com/onnx/onnx
 ```
 

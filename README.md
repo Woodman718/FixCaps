@@ -109,12 +109,12 @@ https://github.com/onnx/onnx
 </td></tr> </table>
 
 ```
-Note：Convert the test set image from JPG to PNG.
+Note：Convert image format of test set from JPG to PNG.
 ```
 
 ## Datasets
 
-![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/data.jpg#pic_center)
+![Data](https://github.com/Woodman718/FixCaps/blob/main/Images/data.jpg#pic_center)
 
 ```
 Example of Skin lesions in HAM10000 dataset.

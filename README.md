@@ -95,10 +95,16 @@ https://github.com/onnx/onnx
 | Total: |           |        |       |  0.9734  |
  
 </td></tr> 
-<tr>
- <th>![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)</th>
- <th>![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png)</th>
- </tr> 
+ 
+<tr><td>
+ 
+ ![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)
+ 
+</td><td> 
+ 
+![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png)
+ 
+</td></tr>
 </table>
 ```
 The test images of AKIEC, BCC, BKL and MEL were converted into PNG format as follows:

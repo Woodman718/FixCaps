@@ -108,6 +108,10 @@ https://github.com/onnx/onnx
 ![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png) 
 </td></tr> </table>
 
+```
+Note：Convert the test set image from JPG to PNG.
+```
+
 ## Datasets
 
 ![Alt](https://github.com/Woodman718/FixCaps/blob/main/Images/data.jpg#pic_center)

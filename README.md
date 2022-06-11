@@ -94,20 +94,12 @@ https://github.com/onnx/onnx
 |  vasc  |    1.0    |  0.8   | 0.889 |          |
 | Total: |           |        |       |  0.9734  |
  
-</td></tr> </table>
-
-
-<table> 
-<tr><th>BatchSize = 168 (Best_Result_610)</th><th>BatchSize = 168,and use the trick</th></tr> 
-<tr><td> 
-
-![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)
-
-</td><td> 
-
-![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png) 
-</td></tr> </table>
-
+</td></tr> 
+<tr>
+ <th>![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)</th>
+ <th>![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png)</th>
+ </tr> 
+</table>
 ```
 The test images of AKIEC, BCC, BKL and MEL were converted into PNG format as follows:
 (augmented dataset)https://aistudio.baidu.com/aistudio/datasetdetail/151696

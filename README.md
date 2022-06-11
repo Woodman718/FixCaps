@@ -113,7 +113,7 @@ The test images of AKIEC, BCC, BKL and MEL were converted into PNG format as fol
 (augmented dataset)https://aistudio.baidu.com/aistudio/datasetdetail/151696
 ```
 
-## Datasets
+## Dataset
 
 ![Data](https://github.com/Woodman718/FixCaps/blob/main/Images/data.jpg#pic_center)
 

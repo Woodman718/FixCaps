@@ -22,6 +22,8 @@ FixCaps-DS	|96.13	|0.14	|0.08
 FixCaps	|96.49	|0.5	|6.74
 
 ```
+pip install ipywidgets prettytable torchsummary tqdm seaborn matplotlib protobuf==3.16.0
+
 #Calculate the Params (M) FLOPs (G)
 pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
 pip install onnx

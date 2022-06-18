@@ -135,13 +135,13 @@ Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
 <tr><th>Evaluation Metrics</th><th>Dis_COVID-19_Data</th><th>Confusion_Matrix_Test</th></tr> 
 <tr><td> 
 
-|  Type  | Precision | Recall |   F1  | Accuracy |
-|:--------:|:-------------:|:-------------:|:--------:|:----------:|
-|  covid  |   0.9918  |  1.0   | 0.996 |          |
-|  normal |    1.0    | 0.988  | 0.994 |          |
-| opacity |   0.9852  |  1.0   | 0.993 |          |
-|  viral  |    1.0    |  1.0   |  1.0  |          |
-|  Total: |           |        |       |  0.9943  |
+|  Type  | Precision | Recall |  F1  | Accuracy |
+|:--------:|:------:|:-----:|:-----:|:--------:|
+|  covid  |0.9918| 1.0 |0.996 |      |
+|  normal |  1.0 |0.988|0.994 |      |
+| opacity |0.9852|  1.0|0.993 |      |
+|  viral  | 1.0  |  1.0| 1.0  |      |
+|  Total: |      |     |      |0.9943|
 
 </td><td>
  

@@ -125,18 +125,13 @@ total:828
 ```
 
 4 Generalization Performance on COVID-19 Radiography Database
-```
-Dataset:  https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
-The COVID-19 Radiography Database consisted of 21165 images.
-Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
-```
 
 <table> 
 <tr><th>Evaluation Metrics</th><th>Dis_COVID-19_Data</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |  F1  | Accuracy |
-|:--------:|:------:|:-----:|:-----:|:--------:|
+|:--------:|:-------------:|:-------------:|:--------:|:----------:|
 |  covid  |0.9918| 1.0 |0.996 |      |
 |  normal |  1.0 |0.988|0.994 |      |
 | opacity |0.9852|  1.0|0.993 |      |
@@ -152,7 +147,7 @@ Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
 <tr><th>Confusion_Matrix_Val</th><th>Confusion_Matrix_Test</th></tr> 
 <tr><td>
  
-![Confusion_Matrix](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_val.png)
+![Confusion_Matrix_val](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_val.png)
  
 </td><td>
  
@@ -161,6 +156,11 @@ Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
 </td></tr>
 </table>
 
+```
+Dataset:  https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+The COVID-19 Radiography Database consisted of 21165 images.
+Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
+```
 
 ## Dataset
 

@@ -127,7 +127,7 @@ total:828
 4 Generalization Performance on COVID-19 Radiography Database
 
 <table> 
-<tr><th>Evaluation Metrics</th><th>Dis_COVID-19_Data</th></tr> 
+<tr><th>Evaluation Metrics</th><th>Distribution of COVID-19 Radiography Database</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |  F1  | Accuracy |
@@ -141,17 +141,6 @@ total:828
 </td><td>
  
  ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Dis_COVID-19_data.png)
- 
-</td></tr>
- 
-<tr><th>Confusion_Matrix_Val</th><th>Confusion_Matrix_Test</th></tr> 
-<tr><td>
- 
-![Confusion_Matrix_val](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_val.png)
- 
-</td><td>
- 
-![Confusion_Matrix](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_test.png)
  
 </td></tr>
 </table>

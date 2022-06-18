@@ -125,18 +125,15 @@ total:828
 ```
 
 4 Generalization Performance on COVID-19 Radiography Database
+```
+Dataset:  https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+The COVID-19 Radiography Database consisted of 21165 images.
+Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
+```
 
 <table> 
-<tr><th>Dis_COVID-19_Data</th><th>Confusion_Matrix_Test</th><th>Evaluation Metrics</th></tr> 
-<tr><td>
- 
- ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Dis_COVID-19_data.png)
- 
-</td><td> 
- 
-![Confusion_Matrix](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_test.png)
- 
-</td><td> 
+<tr><th>Evaluation Metrics</th><th>Dis_COVID-19_Data</th><th>Confusion_Matrix_Test</th></tr> 
+<tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
 |:--------:|:-------------:|:-------------:|:--------:|:----------:|
@@ -146,6 +143,14 @@ total:828
 |  viral  |    1.0    |  1.0   |  1.0  |          |
 |  Total: |           |        |       |  0.9943  |
 
+</td><td>
+ 
+ ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Dis_COVID-19_data.png)
+ 
+</td><td> 
+ 
+![Confusion_Matrix](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_test.png)
+ 
 </td></tr>
 </table>
 

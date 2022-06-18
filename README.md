@@ -83,7 +83,7 @@ vasc:   10
 total:828
 ```
 
-4 Generalization Performance on COVID-19 Radiography Database
+4 Generalization performance on the COVID-19 Radiography Database
 
 <table> 
 <tr><th>Evaluation Metrics</th><th>Distribution of COVID-19 Radiography Database</th></tr> 

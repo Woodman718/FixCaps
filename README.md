@@ -124,6 +124,32 @@ vasc:   10
 total:828
 ```
 
+4 Generalization Performance on COVID-19 Radiography Database
+
+<table> 
+<tr><th>Dis_COVID-19_Data</th><th>Confusion_Matrix_Test</th><th>Evaluation Metrics</th></tr> 
+<tr><td>
+ 
+ ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Dis_COVID-19_data.png)
+ 
+</td><td> 
+ 
+![Confusion_Matrix](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_test.png)
+ 
+</td><td> 
+
+|  Type  | Precision | Recall |   F1  | Accuracy |
+|:--------:|:-------------:|:-------------:|:--------:|:----------:|
+|  covid  |   0.9918  |  1.0   | 0.996 |          |
+|  normal |    1.0    | 0.988  | 0.994 |          |
+| opacity |   0.9852  |  1.0   | 0.993 |          |
+|  viral  |    1.0    |  1.0   |  1.0  |          |
+|  Total: |           |        |       |  0.9943  |
+
+</td></tr>
+</table>
+
+
 ## Dataset
 
 ![Data](https://github.com/Woodman718/FixCaps/blob/main/Images/data.jpg#pic_center)

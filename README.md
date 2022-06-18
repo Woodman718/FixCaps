@@ -68,47 +68,6 @@ https://github.com/onnx/onnx
  
 </td></tr> </table>
 
-<table> 
-<tr><th>BatchSize = 168 (Best_Result_610)</th><th>BatchSize = 168,and use the trick</th></tr> 
-<tr><td> 
-
-|  Type  | Precision | Recall |   F1  | Accuracy |
-|:--------:|:-------------:|:-------------:|:--------:|:----------:|
-| akiec  |    1.0    | 0.826  | 0.905 |          |
-|  bcc   |   0.8214  | 0.885  | 0.852 |          |
-|  bkl   |   0.8714  | 0.924  | 0.897 |          |
-|   df   |   0.4286  |  0.5   | 0.462 |          |
-|  mel   |   0.9677  | 0.882  | 0.923 |          |
-|   nv   |   0.9925  | 0.994  | 0.993 |          |
-|  vasc  |   0.8889  |  0.8   | 0.842 |          |
-| Total: |           |        |       |  0.9698  |
-
-</td><td> 
-
-|  Type  | Precision | Recall |   F1  | Accuracy |
-|:--------:|:-------------:|:-------------:|:--------:|:----------:|
-| akiec  |    1.0    | 0.826  | 0.905 |          |
-|  bcc   |   0.8621  | 0.962  | 0.909 |          |
-|  bkl   |   0.8841  | 0.924  | 0.904 |          |
-|   df   |   0.4286  |  0.5   | 0.462 |          |
-|  mel   |   0.9677  | 0.882  | 0.923 |          |
-|   nv   |   0.9925  | 0.995  | 0.994 |          |
-|  vasc  |    1.0    |  0.8   | 0.889 |          |
-| Total: |           |        |       |  0.9734  |
- 
-</td></tr> 
- 
-<tr><td>
- 
- ![168](https://github.com/Woodman718/FixCaps/blob/main/Images/FixCaps_9698.png)
- 
-</td><td> 
- 
-![trick](https://github.com/Woodman718/FixCaps/blob/main/Images/9734.png)
- 
-</td></tr>
-</table>
-
 ```
 The test images of AKIEC, BCC, BKL and MEL were converted into PNG format as follows:
 

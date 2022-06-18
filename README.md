@@ -132,7 +132,7 @@ Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
 ```
 
 <table> 
-<tr><th>Evaluation Metrics</th><th>Dis_COVID-19_Data</th><th>Confusion_Matrix_Test</th></tr> 
+<tr><th>Evaluation Metrics</th><th>Dis_COVID-19_Data</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |  F1  | Accuracy |
@@ -147,7 +147,14 @@ Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
  
  ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Dis_COVID-19_data.png)
  
-</td><td> 
+</td></tr>
+ 
+<tr><th>Confusion_Matrix_Val</th><th>Confusion_Matrix_Test</th></tr> 
+<tr><td>
+ 
+![Confusion_Matrix](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_val.png)
+ 
+</td><td>
  
 ![Confusion_Matrix](https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/Confusion_Matrix_test.png)
  

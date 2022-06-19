@@ -33,21 +33,8 @@ https://github.com/onnx/onnx
 3 Evaluation metrics of the FixCaps.
 
 <table> 
-<tr><th>BatchSize = 128</th><th>BatchSize = 168(paper)</th></tr> 
+<tr><th>Evaluation Metrics</th><th>Distribution of the HAM10000 Database</th></tr> 
 <tr><td> 
-
-|  Type  | Precision | Recall |   F1  | Accuracy |
-|:--------:|:-------------:|:-------------:|:--------:|:----------:|
-| akiec  |   0.9091  |  0.87  | 0.889 |          |
-|  bcc   |   0.7742  | 0.923  | 0.842 |          |
-|  bkl   |   0.875   | 0.848  | 0.862 |          |
-|   df   |    0.6    |  0.5   | 0.545 |          |
-|  mel   |   0.8889  | 0.941  | 0.914 |          |
-|   nv   |   0.9924  | 0.988  |  0.99 |          |
-|  vasc  |    0.9    |  0.9   |  0.9  |          |
-|overall:|           |        |       |  0.9649   |
-
-</td><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
 |:--------:|:-------------:|:-------------:|:--------:|:----------:|
@@ -58,7 +45,11 @@ https://github.com/onnx/onnx
 |  mel   |   0.9394  | 0.912  | 0.925 |          |
 |   nv   |   0.9835  | 0.986  | 0.985 |          |
 |  vasc  |    1.0    |  0.7   | 0.824 |          |
-|overall:|           |        |       |  0.9649   |
+|overall:|           |        |       |  0.9649  |
+
+</td><td> 
+
+![dis_HAM10000_data](https://github.com/Woodman718/FixCaps/blob/main/Image/Dis_HAM10000_Data.png)
  
 </td></tr> </table>
 
@@ -80,7 +71,7 @@ total:828
 4 Generalization performance on the COVID-19 Radiography Database
 
 <table> 
-<tr><th>Evaluation Metrics</th><th>Distribution of COVID-19 Radiography Database</th></tr> 
+<tr><th>Evaluation Metrics</th><th>Distribution of the COVID-19 Radiography Database</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |  F1  | Accuracy |

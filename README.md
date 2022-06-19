@@ -33,7 +33,6 @@ https://github.com/onnx/onnx
 3 Evaluation metrics of the FixCaps.
 
 <table> 
-<tr><th>Evaluation Metrics</th><th>Distribution of the HAM10000 Database</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
@@ -47,10 +46,6 @@ https://github.com/onnx/onnx
 |  vasc  |   1.0  |  0.7   | 0.824 |          |
 |overall:|        |        |       |  0.9649  |
 
-</td><td> 
-
-![dis_HAM10000_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_Data.png)
- 
 </td></tr> </table>
 
 4 Generalization performance on the COVID-19 Radiography Database

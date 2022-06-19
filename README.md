@@ -37,36 +37,21 @@ https://github.com/onnx/onnx
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
-|:--------:|:-------------:|:-------------:|:--------:|:----------:|
-| akiec  |    0.88   | 0.957  | 0.917 |          |
-|  bcc   |   0.9565  | 0.846  | 0.898 |          |
-|  bkl   |   0.8676  | 0.894  | 0.881 |          |
-|   df   |   0.5714  | 0.667  | 0.615 |          |
-|  mel   |   0.9394  | 0.912  | 0.925 |          |
-|   nv   |   0.9835  | 0.986  | 0.985 |          |
-|  vasc  |    1.0    |  0.7   | 0.824 |          |
-|overall:|           |        |       |  0.9649  |
+|:--------:|:-------:|:-------------:|:--------:|:----------:|
+| akiec  |   0.88 | 0.957  | 0.917 |          |
+|  bcc   |  0.9565| 0.846  | 0.898 |          |
+|  bkl   |  0.8676| 0.894  | 0.881 |          |
+|   df   |  0.5714| 0.667  | 0.615 |          |
+|  mel   |  0.9394| 0.912  | 0.925 |          |
+|   nv   |  0.9835| 0.986  | 0.985 |          |
+|  vasc  |   1.0  |  0.7   | 0.824 |          |
+|overall:|        |        |       |  0.9649  |
 
 </td><td> 
 
 ![dis_HAM10000_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_Data.png)
  
 </td></tr> </table>
-
-```
-The test images of AKIEC, BCC, BKL and MEL were converted into PNG format as follows:
-
-woodman:[data]$./echo_num.sh test
-==test==
-akiec:  23
-bcc:    26
-bkl:    66
-df:     6
-mel:    34
-nv:     663
-vasc:   10
-total:828
-```
 
 4 Generalization performance on the COVID-19 Radiography Database
 

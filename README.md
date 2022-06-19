@@ -48,6 +48,19 @@ https://github.com/onnx/onnx
 
 </td></tr> </table>
 
+```
+$./echo_num.sh test
+==test==
+akiec:  23
+bcc:    26
+bkl:    66
+df:     6
+mel:    34
+nv:     663
+vasc:   10
+total:828
+```
+
 4 Generalization performance on the COVID-19 Radiography Database
 
 <table> 

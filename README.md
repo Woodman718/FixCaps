@@ -49,7 +49,7 @@ https://github.com/onnx/onnx
 
 </td><td> 
 
-![dis_HAM10000_data](https://github.com/Woodman718/FixCaps/blob/main/Image/Dis_HAM10000_Data.png)
+![dis_HAM10000_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_Data.png)
  
 </td></tr> </table>
 

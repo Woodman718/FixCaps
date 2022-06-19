@@ -3,12 +3,6 @@ The early detection of skin cancer substantially improves the five-year survival
 
 https://doi.org/10.1109/ACCESS.2022.3181225
 
-Note：
-
-Here's a trick. Changing "308" to "310" or "312" in the test data augment "transforms.  resize ((308,308))" boost up approximately 0.5% accuracy when testing. 
-
-Commands "from sklearn.metrics import roc_auc_score" and "from torch.utils.data import random_split" in file "FixCaps*.ipynb" are not in use, please delete them yourself.
-
 ## Results
 1. Classification accuracy (%) on the HAM10000 test set.
 

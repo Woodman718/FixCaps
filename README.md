@@ -15,17 +15,6 @@ IRv2-SA	|93.47	|47.5	|25.46
 FixCaps-DS	|96.13	|0.14	|0.08
 FixCaps	|96.49	|0.5	|6.74
 
-```
-pip install ipywidgets prettytable torchsummary tqdm seaborn matplotlib protobuf==3.16.0
-
-#Calculate the Params (M) FLOPs (G)
-pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
-pip install onnx
-
-Failed to install the "onnx", official link as follows:
-https://github.com/onnx/onnx
-```
-
 2. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
 
 ![LKC](https://github.com/Woodman718/FixCaps/blob/main/Images/LKC.jpg#pic_center)
@@ -33,9 +22,10 @@ https://github.com/onnx/onnx
 3 Evaluation metrics of the FixCaps.
 
 <table> 
+ <tr><th>Evaluation Metrics</th><th>Distribution of the HAM10000 Dataset</th></tr> 
 <tr><td> 
 
-|  Type  | Precision | Recall |   F1  | Accuracy |
+  Type  | Precision | Recall |   F1  | Accuracy 
 |:--------:|:-------:|:-------------:|:--------:|:----------:|
 | akiec  |   0.88 | 0.957  | 0.917 |          |
 |  bcc   |  0.9565| 0.846  | 0.898 |          |
@@ -46,25 +36,77 @@ https://github.com/onnx/onnx
 |  vasc  |   1.0  |  0.7   | 0.824 |          |
 |overall:|        |        |       |  0.9649  |
 
+</td><td>
+ 
+ ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_paper.png)
+ 
 </td></tr> </table>
-
-```
-$./echo_num.sh test
-==test==
-akiec:  23
-bcc:    26
-bkl:    66
-df:     6
-mel:    34
-nv:     663
-vasc:   10
-total:828
-```
 
 4 Generalization Performance
 
 <table> 
-<tr><th>Evaluation Metrics</th><th>Distribution of the COVID-19 Radiography Database</th></tr> 
+ <tr><th>Distribution of the HAM10000 Dataset</th><th>Evaluation Metrics(RTX3070)</th><th>Robustness(FixCaps-24)</th></tr> 
+<tr><td> 
+
+![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
+
+</td><td> 
+
+ Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS
+|:--------:|:-------------:|:--------:|:--------:|:--------:|
+| FixCaps_DS-18  |   95.894 | 0.13  | 0.03 |130.4|
+| FixCaps-21   |  96.014 | 0.30  | 3.33 |123.4|
+| FixCaps-24   |  96.256 | 0.35  | 4.22 |121.0|
+
+</td><td>
+ 
+ ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Size_Accuracy_24.png)
+ 
+</td></tr> 
+ <tr><th>FixCaps_DS-18</th><th>FixCaps-21</th><th>FixCaps-24</th></tr> 
+<tr><td> 
+
+|  Type  | Precision | Recall |   F1  | Accuracy |
+|:--------:|:-------:|:-------------:|:--------:|:----------:|
+| akiec  |    0.8    |  0.87  | 0.833 |          |
+|  bcc   |    0.88   | 0.846  | 0.863 |          |
+|  bkl   |   0.8939  | 0.894  | 0.894 |          |
+|   df   |    0.5    |  0.5   |  0.5  |          |
+|  mel   |   0.9565  | 0.647  | 0.772 |          |
+|   nv   |   0.9792  | 0.992  | 0.986 |          |
+|  vasc  |   0.9091  |  1.0   | 0.952 |          |
+|overall:|        |        |       |  0.9589  |
+
+</td><td> 
+
+|  Type  | Precision | Recall |   F1  | Accuracy |
+|:--------:|:-------:|:-------------:|:--------:|:----------:|
+| akiec  |   0.875   | 0.913  | 0.894 |          |
+|  bcc   |   0.8214  | 0.885  | 0.852 |          |
+|  bkl   |   0.8286  | 0.879  | 0.853 |          |
+|   df   |    0.8    | 0.667  | 0.727 |          |
+|  mel   |   0.8462  | 0.647  | 0.733 |          |
+|   nv   |   0.9895  | 0.991  |  0.99 |          |
+|  vasc  |   0.9091  |  1.0   | 0.952 |          |
+|overall:|        |        |       |  0.9601  |
+
+</td><td> 
+
+|  Type  | Precision | Recall |   F1  | Accuracy |
+|:--------:|:-------:|:-------------:|:--------:|:----------:|
+| akiec  |   0.8462  | 0.957  | 0.898 |          |
+|  bcc   |    0.84   | 0.808  | 0.824 |          |
+|  bkl   |   0.9014  |  0.97  | 0.934 |          |
+|   df   |    1.0    | 0.167  | 0.286 |          |
+|  mel   |   0.7714  | 0.794  | 0.783 |          |
+|   nv   |   0.9894  | 0.983  | 0.986 |          |
+|  vasc  |   0.9091  |  1.0   | 0.952 |          |
+|overall:|        |        |       |  0.9626  |
+
+</td></tr> </table>
+
+<table> 
+<tr><th>Evaluation Metrics</th><th>Distribution of the COVID-19 Radiography Dataset</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |  F1  | Accuracy |

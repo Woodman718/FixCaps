@@ -3,6 +3,10 @@ The early detection of skin cancer substantially improves the five-year survival
 
 https://doi.org/10.1109/ACCESS.2022.3181225
 
+Note: 
+The augmented data of HAM10000 can be obtained as follows:
+https://aistudio.baidu.com/aistudio/datasetdetail/151696
+
 ## Results
 1. Classification accuracy (%) on the HAM10000 test set.
 

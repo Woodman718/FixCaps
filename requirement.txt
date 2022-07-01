@@ -1,0 +1,17 @@
+# Image Augmentation
+#opencv-python
+#tensorflow-gpu==2.9.0
+#tf-models-official==2.9.2
+#cudatoolkit=11.0
+matplotlib
+ipywidgets
+prettytable
+torchsummary
+tqdm
+seaborn
+
+protobuf==3.19.0
+#pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
+thop
+onnx
+

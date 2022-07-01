@@ -66,6 +66,7 @@ total:828
 <table> 
 <tr><th>Evaluation Metrics</th><th>Distribution of the COVID-19 Radiography Database</th></tr> 
 <tr><td> 
+
 |  Type  | Precision | Recall |  F1  | Accuracy |
 |:--------:|:-------------:|:-------------:|:--------:|:----------:|
 |  covid  |0.9918| 1.0 |0.996 |      |

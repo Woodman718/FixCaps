@@ -45,7 +45,7 @@ FixCaps	|96.49	|0.5	|6.74
 4 Generalization Performance
 
 <table> 
- <tr><th>FixCaps-24</th><th>Robustness(FixCaps-24)</th></tr> 
+ <tr><th>FixCaps-24</th><th>Distribution of the HAM10000 Dataset</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
@@ -59,23 +59,23 @@ FixCaps	|96.49	|0.5	|6.74
 |  vasc  |   0.9091  |  1.0   | 0.952 |          |
 |overall:|        |        |       |  0.9626  |
 
-</td><td>
+</td><td> 
+
+![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
+
+</td></tr>
+ <tr><th>Robustness(FixCaps-24)</th><th>Evaluation Metrics(RTX3070)</th></tr> 
+<tr><td>
  
  ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Size_Accuracy_24.png)
  
-</td></tr>
- <tr><th>Evaluation Metrics(RTX3070)</th><th>Distribution of the HAM10000 Dataset</th></tr> 
-<tr><td> 
+</td><td> 
 
  Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS
 |:--------:|:-------------:|:--------:|:--------:|:--------:|
 | FixCaps_DS-18  |   95.894 | 0.13  | 0.03 |130.4|
 | FixCaps-21   |  96.014 | 0.30  | 3.33 |123.4|
 | FixCaps-24   |  96.256 | 0.35  | 4.22 |121.0|
-
-</td><td> 
-
-![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
 
 </td></tr> 
  <tr><th>FixCaps-21</th><th>FixCaps_DS-18</th></tr> 

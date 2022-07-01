@@ -50,7 +50,13 @@ FixCaps	|96.49	|0.5	|6.74
 
 ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
 
-</td><td> 
+</td><td>
+ 
+ ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Size_Accuracy_24.png)
+ 
+</td></tr>
+ <tr><th>Evaluation Metrics(RTX3070)</th><th>FixCaps_DS-18</th></tr> 
+<tr><td> 
 
  Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS
 |:--------:|:-------------:|:--------:|:--------:|:--------:|
@@ -58,13 +64,7 @@ FixCaps	|96.49	|0.5	|6.74
 | FixCaps-21   |  96.014 | 0.30  | 3.33 |123.4|
 | FixCaps-24   |  96.256 | 0.35  | 4.22 |121.0|
 
-</td><td>
- 
- ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Size_Accuracy_24.png)
- 
-</td></tr> 
- <tr><th>FixCaps_DS-18</th><th>FixCaps-21</th><th>FixCaps-24</th></tr> 
-<tr><td> 
+</td><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
 |:--------:|:-------:|:-------------:|:--------:|:----------:|
@@ -77,7 +77,9 @@ FixCaps	|96.49	|0.5	|6.74
 |  vasc  |   0.9091  |  1.0   | 0.952 |          |
 |overall:|        |        |       |  0.9589  |
 
-</td><td> 
+</td></tr> 
+ <tr><th>FixCaps-21</th><th>FixCaps-24</th></tr> 
+<tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
 |:--------:|:-------:|:-------------:|:--------:|:----------:|
@@ -105,6 +107,12 @@ FixCaps	|96.49	|0.5	|6.74
 
 </td></tr> </table>
 
+```
+Dataset:  https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+The COVID-19 Radiography Database consisted of 21165 images.
+Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
+```
+
 <table> 
 <tr><th>Evaluation Metrics</th><th>Distribution of the COVID-19 Radiography Dataset</th></tr> 
 <tr><td> 
@@ -123,12 +131,6 @@ FixCaps	|96.49	|0.5	|6.74
  
 </td></tr>
 </table>
-
-```
-Dataset:  https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
-The COVID-19 Radiography Database consisted of 21165 images.
-Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
-```
 
 ## Dataset
 

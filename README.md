@@ -45,17 +45,26 @@ FixCaps	|96.49	|0.5	|6.74
 4 Generalization Performance
 
 <table> 
- <tr><th>Distribution of the HAM10000 Dataset</th><th>Robustness(FixCaps-24)</th></tr> 
+ <tr><th>FixCaps-24</th><th>Robustness(FixCaps-24)</th></tr> 
 <tr><td> 
 
-![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
+|  Type  | Precision | Recall |   F1  | Accuracy |
+|:--------:|:-------:|:-------------:|:--------:|:----------:|
+| akiec  |   0.8462  | 0.957  | 0.898 |          |
+|  bcc   |    0.84   | 0.808  | 0.824 |          |
+|  bkl   |   0.9014  |  0.97  | 0.934 |          |
+|   df   |    1.0    | 0.167  | 0.286 |          |
+|  mel   |   0.7714  | 0.794  | 0.783 |          |
+|   nv   |   0.9894  | 0.983  | 0.986 |          |
+|  vasc  |   0.9091  |  1.0   | 0.952 |          |
+|overall:|        |        |       |  0.9626  |
 
 </td><td>
  
  ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Size_Accuracy_24.png)
  
 </td></tr>
- <tr><th>Evaluation Metrics(RTX3070)</th><th>FixCaps_DS-18</th></tr> 
+ <tr><th>Evaluation Metrics(RTX3070)</th><th>Distribution of the HAM10000 Dataset</th></tr> 
 <tr><td> 
 
  Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS
@@ -66,19 +75,10 @@ FixCaps	|96.49	|0.5	|6.74
 
 </td><td> 
 
-|  Type  | Precision | Recall |   F1  | Accuracy |
-|:--------:|:-------:|:-------------:|:--------:|:----------:|
-| akiec  |    0.8    |  0.87  | 0.833 |          |
-|  bcc   |    0.88   | 0.846  | 0.863 |          |
-|  bkl   |   0.8939  | 0.894  | 0.894 |          |
-|   df   |    0.5    |  0.5   |  0.5  |          |
-|  mel   |   0.9565  | 0.647  | 0.772 |          |
-|   nv   |   0.9792  | 0.992  | 0.986 |          |
-|  vasc  |   0.9091  |  1.0   | 0.952 |          |
-|overall:|        |        |       |  0.9589  |
+![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
 
 </td></tr> 
- <tr><th>FixCaps-21</th><th>FixCaps-24</th></tr> 
+ <tr><th>FixCaps-21</th><th>FixCaps_DS-18</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
@@ -96,14 +96,14 @@ FixCaps	|96.49	|0.5	|6.74
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
 |:--------:|:-------:|:-------------:|:--------:|:----------:|
-| akiec  |   0.8462  | 0.957  | 0.898 |          |
-|  bcc   |    0.84   | 0.808  | 0.824 |          |
-|  bkl   |   0.9014  |  0.97  | 0.934 |          |
-|   df   |    1.0    | 0.167  | 0.286 |          |
-|  mel   |   0.7714  | 0.794  | 0.783 |          |
-|   nv   |   0.9894  | 0.983  | 0.986 |          |
+| akiec  |    0.8    |  0.87  | 0.833 |          |
+|  bcc   |    0.88   | 0.846  | 0.863 |          |
+|  bkl   |   0.8939  | 0.894  | 0.894 |          |
+|   df   |    0.5    |  0.5   |  0.5  |          |
+|  mel   |   0.9565  | 0.647  | 0.772 |          |
+|   nv   |   0.9792  | 0.992  | 0.986 |          |
 |  vasc  |   0.9091  |  1.0   | 0.952 |          |
-|overall:|        |        |       |  0.9626  |
+|overall:|        |        |       |  0.9589  |
 
 </td></tr> </table>
 

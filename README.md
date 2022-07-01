@@ -61,12 +61,12 @@ vasc:   10
 total:828
 ```
 
-4 Generalization performance on the COVID-19 Radiography Database
+4 Generalization Performance
 
 <table> 
 <tr><th>Evaluation Metrics</th><th>Distribution of the COVID-19 Radiography Database</th></tr> 
 <tr><td> 
-
+|      |
 |  Type  | Precision | Recall |  F1  | Accuracy |
 |:--------:|:-------------:|:-------------:|:--------:|:----------:|
 |  covid  |0.9918| 1.0 |0.996 |      |

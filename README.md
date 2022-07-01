@@ -6,7 +6,7 @@ https://doi.org/10.1109/ACCESS.2022.3181225
 ## Results
 1. Classification accuracy (%) on the HAM10000 test set.
 
-Method	|Accuracy [%]	|Params(M) 	|FLOPs(G)
+|Method	|Accuracy [%]	|Params(M) 	|FLOPs(G)|
 |:--------:|:-------------:|:-------------:|:-------------:|
 GoogLeNet	|83.94	|5.98	|1.58
 Inception V3	|86.82	|22.8	|5.73
@@ -25,7 +25,7 @@ FixCaps	|96.49	|0.5	|6.74
  <tr><th>Evaluation Metrics</th><th>Distribution of the HAM10000 Dataset</th></tr> 
 <tr><td> 
 
-  Type  | Precision | Recall |   F1  | Accuracy 
+|  Type  | Precision | Recall |   F1  | Accuracy |
 |:--------:|:-------:|:-------------:|:--------:|:----------:|
 | akiec  |   0.88 | 0.957  | 0.917 |          |
 |  bcc   |  0.9565| 0.846  | 0.898 |          |
@@ -71,7 +71,7 @@ FixCaps	|96.49	|0.5	|6.74
  
 </td><td> 
 
- Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS
+| Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS |
 |:--------:|:-------------:|:--------:|:--------:|:--------:|
 | FixCaps_DS-18  |   95.894 | 0.13  | 0.03 |130.4|
 | FixCaps-21   |  96.014 | 0.30  | 3.33 |123.4|

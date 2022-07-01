@@ -45,7 +45,7 @@ FixCaps	|96.49	|0.5	|6.74
 4 Generalization Performance
 
 <table> 
- <tr><th>Distribution of the HAM10000 Dataset</th><th>Evaluation Metrics(RTX3070)</th><th>Robustness(FixCaps-24)</th></tr> 
+ <tr><th>Distribution of the HAM10000 Dataset</th><th>Robustness(FixCaps-24)</th></tr> 
 <tr><td> 
 
 ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)

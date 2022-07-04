@@ -26,7 +26,7 @@ FixCaps	|96.49	|0.5	|6.74
 3 Evaluation metrics of the FixCaps.
 
 <table> 
- <tr><th>Evaluation Metrics</th><th>Distribution of the HAM10000 Dataset</th></tr> 
+ <tr><th>FixCaps-31</th><th>Distribution of the HAM10000 Dataset</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
@@ -78,8 +78,13 @@ FixCaps	|96.49	|0.5	|6.74
 | Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS |
 |:--------:|:-------------:|:--------:|:--------:|:--------:|
 | FixCaps_DS-18  |   95.894 | 0.13  | 0.03 |130.4|
+| FixCaps_DS-24  |   94.08 | 0.13  | 0.05 |127.8|
+| FixCaps_DS-31  |   94.324 | 0.14  | 0.07 |127.5|
 | FixCaps-21   |  96.014 | 0.30  | 3.33 |123.4|
 | FixCaps-24   |  96.256 | 0.35  | 4.22 |121.0|
+| FixCaps-29   |  95.048 | 0.46  | 5.99 |115.2|
+| FixCaps-31   |  93.961 | 0.5  | 6.74 |114.7|
+| FixCaps-33   |  94.806 | 0.55  | 7.52 |113.5|
 
 </td></tr> 
  <tr><th>FixCaps-21</th><th>FixCaps_DS-18</th></tr> 
@@ -143,7 +148,7 @@ This is a slightly different version of the "NCT-CRC-HE-100K" image set: This se
 ```
 
 <table> 
-<tr><th>Evaluation Metrics</th><th>NCT-CRC-HE-100K-NONORM</th></tr> 
+<tr><th>FixCaps-DS-18</th><th>NCT-CRC-HE-100K-NONORM</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |  F1  | Accuracy |

@@ -136,6 +136,36 @@ Among them, covid(3616),normal(10192),opacity(6012),viral(1345).
 </td></tr>
 </table>
 
+```
+Source Data: http://dx.doi.org/10.5281/zenodo.1214456
+Jakob Nikolas Kather, Johannes Krisam, et al., "Predicting survival from colorectal cancer histology slides using deep learning: A retrospective multicenter study," PLOS Medicine, vol. 16, no. 1, pp. 1–22, 01 2019.
+This is a slightly different version of the "NCT-CRC-HE-100K" image set: This set contains 100,000 images in 9 tissue classes at 0.5 MPP and was created from the same raw data as "NCT-CRC-HE-100K". However, no color normalization was applied to these images. Consequently, staining intensity and color slightly varies between the images. Please note that although this image set was created from the same data as "NCT-CRC-HE-100K", the image regions are not completely identical because the selection of non-overlapping tiles from raw images was a stochastic process.
+```
+
+<table> 
+<tr><th>Evaluation Metrics</th><th>NCT-CRC-HE-100K-NONORM</th></tr> 
+<tr><td> 
+
+|  Type  | Precision | Recall |  F1  | Accuracy |
+|:--------:|:-------------:|:-------------:|:--------:|:----------:|
+|  ADI   |   0.9952  | 0.997  | 0.996 |          |
+|  BACK  |   0.9972  |  1.0   | 0.999 |          |
+|  DEB   |   0.9965  | 0.988  | 0.992 |          |
+|  LYM   |   0.9948  | 0.993  | 0.994 |          |
+|  MUC   |   0.9932  | 0.987  |  0.99 |          |
+|  MUS   |   0.9941  | 0.996  | 0.995 |          |
+|  NORM  |   0.9853  | 0.995  |  0.99 |          |
+|  STR   |   0.9801  |  0.99  | 0.985 |          |
+|  TUM   |   0.9951  | 0.989  | 0.992 |          |
+|overall:|           |        |       |0.9927|
+
+</td><td>
+ 
+ ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_NCT-CRC-HE-100K-NONORM.png)
+ 
+</td></tr>
+</table>
+
 ## Dataset
 
 ![Data](https://github.com/Woodman718/FixCaps/blob/main/Images/data.jpg#pic_center)

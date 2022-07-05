@@ -191,11 +191,13 @@ def one_hot(x, length):
     return x_one_hot
 
 def pff(m_name,model,inputes):
-
-    print("%s | %s | %s | %s" % ("  Model  ", "Params(M)", "FLOPs(G)","FPS"))
-    print("----------|-----------|----------|-----")
+    result_table = prettytable.PrettyTable()
+    result_table.field_names = ['Model','Params(M)', 'FLOPs(G)', 'FPS']  
 
     total_ops, total_params = profile(model, (inputes,), verbose=False)
+    Params = total_params / (1000 ** 2)
+    ops = total_ops / (1000 ** 3)
+    
     model.eval()
     with torch.no_grad():
         torch.cuda.synchronize()
@@ -204,9 +206,6 @@ def pff(m_name,model,inputes):
         torch.cuda.synchronize()
         end = time.time()
         single_fps = 1/(end-start)
-
-    print(
-        "%s |    %.2f   |   %.2f   | %.1f" % (m_name, total_params / (1000 ** 2),
-                                    total_ops / (1000 ** 3),
-                                    single_fps)
-        )
+        
+    result_table.add_row([m_name, round(Params, 2), round(ops, 2), round(single_fps, 2)])
+    print(result_table)

@@ -227,8 +227,8 @@ If you use FixCaps for your research or aplication, please consider citation:
   journal={IEEE Access}, 
   title={FixCaps: An Improved Capsules Network for Diagnosis of Skin Cancer}, 
   year={2022},
-  volume={},
+  volume={10},
   number={},
-  pages={1-1},
+  pages={76261-76267},
   doi={10.1109/ACCESS.2022.3181225}}
 ```

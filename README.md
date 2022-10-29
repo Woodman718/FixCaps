@@ -10,14 +10,14 @@ https://aistudio.baidu.com/aistudio/datasetdetail/151696
 ## Results
 1. Classification accuracy (%) on the HAM10000 test set.
 
-|Method	|Accuracy [%]	|Params(M) 	|FLOPs(G)|
+|Method |Accuracy [%] |Params(M)  |FLOPs(G)|
 |:--------:|:-------------:|:-------------:|:-------------:|
-GoogLeNet	|83.94	|5.98	|1.58
-Inception V3	|86.82	|22.8	|5.73
-MobileNet V3	|89.97	|1.53	|0.12
-IRv2-SA	|93.47	|47.5	|25.46
-FixCaps-DS	|96.13	|0.14	|0.08
-FixCaps	|96.49	|0.5	|6.74
+GoogLeNet |83.94  |5.98 |1.58
+Inception V3  |86.82  |22.8 |5.73
+MobileNet V3  |89.97  |1.53 |0.12
+IRv2-SA |93.47  |47.5 |25.46
+FixCaps-DS  |96.13  |0.14 |0.08
+FixCaps |96.49  |0.5  |6.74
 
 2. The accuracy is evaluated on the test set by using different LKC(large-kernel convolution).
 
@@ -49,57 +49,58 @@ FixCaps	|96.49	|0.5	|6.74
 4 Generalization Performance
 
 <table> 
- <tr><th>FixCaps-24</th><th>Distribution of the HAM10000 Dataset</th></tr> 
+ <tr><th>Robustness(FixCaps-29)<th>Distribution of the HAM10000 Dataset</th></tr> 
 <tr><td> 
 
-|  Type  | Precision | Recall |   F1  | Accuracy |
-|:--------:|:-------:|:-------------:|:--------:|:----------:|
-| akiec  |   0.8462  | 0.957  | 0.898 |          |
-|  bcc   |    0.84   | 0.808  | 0.824 |          |
-|  bkl   |   0.9014  |  0.97  | 0.934 |          |
-|   df   |    1.0    | 0.167  | 0.286 |          |
-|  mel   |   0.7714  | 0.794  | 0.783 |          |
-|   nv   |   0.9894  | 0.983  | 0.986 |          |
-|  vasc  |   0.9091  |  1.0   | 0.952 |          |
-|overall:|        |        |       |  0.9626  |
+![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Size_Accuracy_29.png)
 
 </td><td> 
 
 ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
 
 </td></tr>
- <tr><th>Robustness(FixCaps-24)</th><th>Evaluation Metrics(RTX3070)</th></tr> 
+ <tr><th>FixCaps-29(Driver Version: 515.76)</th></th><th>Evaluation Metrics(RTX3070)</th></tr> 
 <tr><td>
  
- ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Size_Accuracy_24.png)
+|  Type  | Precision | Recall |   F1  | Accuracy |
+|:--------:|:-------:|:-------------:|:--------:|:----------:|
+| akiec  |    1.0    |  1.0   |  1.0  |          |
+|  bcc   |   0.9259  | 0.962  | 0.943 |          |
+|  bkl   |   0.9344  | 0.864  | 0.898 |          |
+|   df   |   0.4444  | 0.667  | 0.533 |          |
+|  mel   |   0.931   | 0.794  | 0.857 |          |
+|   nv   |   0.9776  | 0.989  | 0.984 |          |
+|  vasc  |    1.0    |  0.8   | 0.889 |          |
+|overall:|        |        |       |  0.9662  |
  
 </td><td> 
 
-| Method	|Accuracy[%]|Params(M)|FLOPs(G)| FPS |
+| Method  |Accuracy[%]|Params(M)|FLOPs(G)| FPS |
 |:--------:|:-------------:|:--------:|:--------:|:--------:|
 | FixCaps_DS-18  |   95.894 | 0.13  | 0.03 |130.4|
 | FixCaps_DS-24  |   94.08 | 0.13  | 0.05 |127.8|
 | FixCaps_DS-31  |   94.324 | 0.14  | 0.07 |127.5|
+| FixCaps_18   |  96.376 | 0.26  | 2.49 |130.9|
 | FixCaps-21   |  96.014 | 0.30  | 3.33 |123.4|
 | FixCaps-24   |  96.256 | 0.35  | 4.22 |121.0|
-| FixCaps-29   |  95.048 | 0.46  | 5.99 |115.2|
-| FixCaps-31   |  93.961 | 0.5  | 6.74 |114.7|
+| FixCaps-29   |  96.618 | 0.46  | 5.99 |119.2|
+| FixCaps-31   |  93.961 | 0.50  | 6.74 |114.7|
 | FixCaps-33   |  94.806 | 0.55  | 7.52 |113.5|
 
 </td></tr> 
- <tr><th>FixCaps-21</th><th>FixCaps_DS-18</th></tr> 
+ <tr><th>FixCaps-18(Ablation-CAM)</th><th>FixCaps_DS-18</th></tr> 
 <tr><td> 
 
 |  Type  | Precision | Recall |   F1  | Accuracy |
 |:--------:|:-------:|:-------------:|:--------:|:----------:|
-| akiec  |   0.875   | 0.913  | 0.894 |          |
-|  bcc   |   0.8214  | 0.885  | 0.852 |          |
-|  bkl   |   0.8286  | 0.879  | 0.853 |          |
-|   df   |    0.8    | 0.667  | 0.727 |          |
-|  mel   |   0.8462  | 0.647  | 0.733 |          |
-|   nv   |   0.9895  | 0.991  |  0.99 |          |
-|  vasc  |   0.9091  |  1.0   | 0.952 |          |
-|overall:|        |        |       |  0.9601  |
+| akiec  |   0.8846  |  1.0   | 0.939 |          |
+|  bcc   |    1.0    | 0.923  |  0.96 |          |
+|  bkl   |   0.9104  | 0.924  | 0.917 |          |
+|   df   |   0.3333  | 0.167  | 0.222 |          |
+|  mel   |    0.95   | 0.559  | 0.704 |          |
+|   nv   |   0.9735  | 0.995  | 0.984 |          |
+|  vasc  |    1.0    |  1.0   |  1.0  |          |
+|overall:|        |        |       |  0.9638  |
 
 </td><td> 
 

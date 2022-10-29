@@ -59,7 +59,7 @@ FixCaps |96.49  |0.5  |6.74
 ![dis_data](https://github.com/Woodman718/FixCaps/blob/main/Images/Dis_HAM10000_GP.png)
 
 </td></tr>
- <tr><th>FixCaps-29(Driver Version: 515.76)</th></th><th>Evaluation Metrics(RTX3070)</th></tr> 
+ <tr><th>FixCaps-29</th></th><th>Evaluation Metrics(RTX3070_Driver_Version: 515.7)</th></tr> 
 <tr><td>
  
 |  Type  | Precision | Recall |   F1  | Accuracy |

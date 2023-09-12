@@ -231,5 +231,16 @@ If you use FixCaps for your research or aplication, please consider citation:
   volume={10},
   number={},
   pages={76261-76267},
-  doi={10.1109/ACCESS.2022.3181225}}
+  doi={10.1109/ACCESS.2022.3181225}
+}
+@ARTICLE{LanCapsNets,
+  author={Lan, Zhangli and Cai, Songbai and Zhu, Jiqiang and Xu, Yuantong},
+  journal={XXX on XXX}, 
+  title={A Novel Skin Cancer Assisted Diagnosis Method based on Capsule Networks with CBAM}, 
+  year={},
+  volume={},
+  number={},
+  pages={},
+  doi={10.36227/techrxiv.23291003},
+}
 ```
